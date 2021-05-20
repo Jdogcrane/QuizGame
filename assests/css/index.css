@@ -32,3 +32,8 @@ button {
     float: center;
 
 }
+
+a {
+    float: left;
+    color: rgb(12, 14, 12);
+}
