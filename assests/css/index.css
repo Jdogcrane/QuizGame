@@ -1,5 +1,6 @@
 header {
-text-align: center;
+
+
 }
 
 body {
@@ -24,16 +25,15 @@ float: center;
 
 button {
     background-color: #a1730f; /* Green background */
-    border: 1px solid rgb(12, 14, 12); /* Green border */
+    border: 1px solid rgb(41, 41, 41); /* Green border */
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */ /* Make the buttons appear below each other */
     text-align: center;
     float: center;
-
 }
 
 a {
-    float: left;
+    text-align: center;
     color: rgb(12, 14, 12);
 }

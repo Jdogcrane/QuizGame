@@ -10,22 +10,26 @@
 </head>
 
 <body>
-    <nav>
-        <a href="highscore.html">highscore</a>
-    </nav>
-
     <header>
         <h1>Quiz Game</h1>
+        <h3>Score</h3>
+        <h3 class="timer-count">100</h3>
+        <a href="highscore.html">All recorded scores</a>
     </header>
 
     <main class = "choices">
-        <p class="question">WELCOME! You have 60secs to finish. Each wrong answer sub-tracks ten seconds from your time. Good luck!</p>
+        <p class="question"></p>
         <button class="choice1" onclick="pick1()">place holder 1</button>
         <button class="choice2" onclick="pick2()">place holder 2</button>
         <button class="choice3" onclick="pick3()">place holder 3</button>
         <button class="choice4" onclick="pick4()">place holder 4</button>
     </main>
     <button class="startgame" onclick="startGame()">Start</button>
+    <form class="input">
+        <h3 class="name">Enter Name</h3>
+    <input>
+    </input>
+</form>
     <script src="assests/javascript/script.js"></script>
 </body>
 
