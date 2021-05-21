@@ -7,7 +7,7 @@
 ## General overview: 
 
 <p style="font-family:georgia"> 
-For this project the goal was to create a quiz style game using mostly javascript. The objective is to have a timer that counts down every second. The longer the user takes to complete the less time the user will have as a score. If the user fails a question the timer will be reduced by 10. Until all questions are answered the timer will continue running. At the end the user will need to insert name. After that the score will be displayed on the highscore page.
+For this project the goal was to create a quiz style game using mostly javascript. The objective is to have a timer that counts down every second, multiple sets of questions and submit to local storage. The longer the user takes to complete the less time the user will have as a score. If the user fails a question the timer will be reduced by 10. Until all questions are answered the timer will continue running. At the end the user will need to insert name. After that the score will be displayed on the highscore page.
 <p>
 
 <h3 style="text-align:center;">Instructions</h3>
