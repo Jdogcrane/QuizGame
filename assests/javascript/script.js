@@ -1,7 +1,7 @@
 var game = {
     round: 0
 }
-
+// variables that timer uses
 var timer;
 var timerCount = 100;
 var timerElement = document.querySelector(".timer-count");

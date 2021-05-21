@@ -1,42 +1,37 @@
-<h1 style="text-align: center;">Password Generator</h1>
+<h1 style="text-align: center;">Quiz Game</h1>
 
-[[Deployed-Site]](https://jdogcrane.github.io/PasswordGenerator/)
+[[Deployed-Site]](https://jdogcrane.github.io/QuizGame/)
 
 [[Site-Preview]](#Site-Preview)
 
 ## General overview: 
 
 <p style="font-family:georgia"> 
-For this project the goal was to produce a generated password using javascript on a html page. When the generate password button is pressed the user will receive a series of prompts. The user will choose the criteria for the password and after they are complete the generated password will be displayed in the box for the user to access. 
+For this project the goal was to create a quiz style game using mostly javascript. The objective is to have a timer that counts down every second. The longer the user takes to complete the less time the user will have as a score. If the user fails a question the timer will be reduced by 10. Until all questions are answered the timer will continue running. At the end the user will need to insert name. After that the score will be displayed on the highscore page.
 <p>
 
----
 <h3 style="text-align:center;">Instructions</h3>
----
 
-1. Click Generate Password
-2. Input a valid length for password
-3. Select if you want numbers in the password
-4. Select if you want special characters in the password
-5. Select if you want uppercase in the password
-6. Select if you want lowercase in the password
-7. Copy your password and enjoy!
+1. Click start game
+2. select a from multiple choices
+3. if you are correct you will proceed with no penalty to score
+4. if you are incorrect you will be penalized by subtracting ten from your score
+5. after completing quiz insert initials
 
 
 
----
+
 <h3 style="text-align:center;">JS-Summary</h3>
----
 
-* Added Password object with password criteria
-* Added array with all letters the generator will use
-* Added all capital letters the generator will use
-* Added all special characters the generator will use
-* Added all numbers the generator will use
+* Added submit function that inserts data user enters and score to local storage
+* Added a function to set up quiz and start timer
+* Added functions for each choice
+* Added function to change round after each choice
+* Added function to stop timer
 * Added a generatePassword function to create password with the criteria the user chooses
+* Added game obj that keeps track of rounds
 
-
->Notes: The default length is set to 8 for the password allowing for a click only experience 
+>Notes: I managed to get my score and initails into local storage, but I could not figure out how to fetch from my local storage...
 
 ## Site Preview
-![alt link= this is the place for the site preview](assests/images/preview.gif)
+![alt link= this is the place for the site preview](./assests/images/preview.gif)
