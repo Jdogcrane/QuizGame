@@ -1,6 +1,7 @@
 var game = {
     round: 0
 }
+
 var timer;
 var timerCount = 100;
 var timerElement = document.querySelector(".timer-count");
@@ -113,56 +114,56 @@ function next() {
     // question 1 & choices
     if (game.round === 1) {
         choice1.textContent = "child";
-        choice2.textContent = "Boolean";
-        choice3.textContent = "Balloon";
+        choice2.textContent = "boolean";
+        choice3.textContent = "balloon";
         choice4.textContent = "var";
 
         question.textContent = "Question 1: What represents true and false values.";
     }
     // question 2 & choices
     if (game.round === 2) {
-        choice1.textContent = "b1";
-        choice2.textContent = "Null";
-        choice3.textContent = "b3";
-        choice4.textContent = "b4";
+        choice1.textContent = "idk";
+        choice2.textContent = "null";
+        choice3.textContent = "full";
+        choice4.textContent = "random";
 
         question.textContent = "Question 2: What represents empty, nothing, and unknown type of values.";
     }
 
     // question 3 & choices
     if (game.round === 3) {
-        choice1.textContent = "c1";
-        choice2.textContent = "Number";
-        choice3.textContent = "c3";
-        choice4.textContent = "c4";
+        choice1.textContent = "float";
+        choice2.textContent = "number";
+        choice3.textContent = "2020";
+        choice4.textContent = "value";
 
         question.textContent = "Question 3: What represents both integer and floating-point values.";
     }
 
     // question 4 & choices
     if (game.round === 4) {
-        choice1.textContent = "d1";
-        choice2.textContent = "Object";
-        choice3.textContent = "d3";
-        choice4.textContent = "d4";
+        choice1.textContent = "thing";
+        choice2.textContent = "object";
+        choice3.textContent = "container";
+        choice4.textContent = "body";
 
-        question.textContent = "Question 4: what is used for storing collections of data or more complex entities.";
+        question.textContent = "Question 4: What is used for storing collections of data or more complex entities.";
     }
 
     if (game.round === 5) {
-        choice1.textContent = "d1";
-        choice2.textContent = "String";
-        choice3.textContent = "d3";
-        choice4.textContent = "d4";
+        choice1.textContent = "thread";
+        choice2.textContent = "string";
+        choice3.textContent = "paper";
+        choice4.textContent = "rope";
 
         question.textContent = "Question 5: Represents single-character, multi-character, and alphanumeric values.";
     }
 
     if (game.round === 6) {
-        choice1.textContent = "d1";
+        choice1.textContent = "special";
         choice2.textContent = "Symbol";
-        choice3.textContent = "d3";
-        choice4.textContent = "d4";
+        choice3.textContent = "id";
+        choice4.textContent = "class";
 
         question.textContent = "Question 6: Used for creating unique identifiers for objects.";
     }
